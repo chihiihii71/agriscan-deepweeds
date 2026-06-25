@@ -20,7 +20,7 @@ CLASS_NAMES = [
 # Models available locally (GitHub)
 from huggingface_hub import hf_hub_download
 
-REPO_ID = "your-huggingface-username/agriscan-deepweeds"
+REPO_ID = "https://huggingface.co/Jaoooooo9/agriscan-streamlit"
 
 @st.cache_resource
 def get_model_path(filename):
